@@ -2,7 +2,7 @@
 
 function Failure
 {
-    echo -e "\e[32mError: Output name cannot contain any spaces, use - symbol to separate if you need to.\e[0m"
+    echo -e "\e[31mError: Output name cannot contain any spaces, use - symbol to separate if you need to.\e[0m"
     echo ""
     Output
 }
@@ -22,7 +22,7 @@ function Output
 
 if ! command -v ffmpeg &> /dev/null
 then
-    echo -e "\e[32mError: You need to install ffmpeg before you run this program. Make sure it's added to PATH.\e[0m"
+    echo -e "\e[31mError: You need to install ffmpeg before you run this program. Make sure it's added to PATH.\e[0m"
 else
     Output
 fi
