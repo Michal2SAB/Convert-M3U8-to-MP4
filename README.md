@@ -14,6 +14,3 @@ You got two options:
 - Run fiddler in background **before** you start watching your video and catch the .m3u8 url in traffic after you press play on the video (make sure 'capture traffic' is enabled).
 
 - Open browser console **before** you start watching your video, go to the network tab and catch the M3U8 url when you press play on your video. It's easier with fiddler imo.
-
-# How to run
-Just double click on convert.bat and answer the questions it gives you. Enter output name and playlist link. If you have the playlist downloaded to folder, type the name with extension (.m3u8)
