@@ -22,7 +22,7 @@ function Output
 
 if ! command -v ffmpeg &> /dev/null
 then
-    echo -e "\e[31mError: You need to install ffmpeg before you run this program. Make sure it's added to PATH.\e[0m"
+    echo -e "\e[31mError: You need to install ffmpeg before you run this program.\e[0m"
 else
     Output
 fi
