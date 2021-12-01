@@ -1,5 +1,5 @@
 # Convert M3U8 to MP4
-Convert M3U8 stream playlist to a playable MP4 video. It can also basically download any stream-only video off a lot of websites. Useful if the website doesn't have a download option for the video you want.
+Very simple batch and bash scripts for both windows and linux. You can convert M3U8 stream playlist to a playable MP4 video. You can also basically download any stream-only video off a lot of websites. Useful if the website doesn't have a download option for the video you want.
 
 # Requirements
 You need to install FFmpeg properly (with adding to the PATH) or do it the noob way (download ffmpeg.exe and put inside your folder)
