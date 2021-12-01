@@ -8,7 +8,7 @@ You need to install FFmpeg properly (with adding to the PATH) or do it the noob 
 
 - Fiddler link (optional, see below): https://www.telerik.com/fiddler
 
-# How to get M3U8 file from the video online
+# How to get M3U8 file from online video
 You got two options:
 
 - Run fiddler in background **before** you start watching your video and catch the .m3u8 url in traffic after you press play on the video (make sure 'capture traffic' is enabled).
